@@ -1,6 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-#	* hr_timesheet_sheet_change_period
+# 	* hr_timesheet_sheet_change_period
 #
 msgid ""
 msgstr ""
@@ -10,6 +10,7 @@ msgstr ""
 "PO-Revision-Date: 2015-03-26 10:41+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -57,14 +58,20 @@ msgid "Date to"
 msgstr "Date de fin"
 
 #. module: hr_timesheet_sheet_change_period
-#: model:ir.model,name:hr_timesheet_sheet_change_period.model_hr_timesheet_sheet_change_period_wizard
-msgid "Timesheet Period Change Wizard"
-msgstr "Assistant de changement de période de feuille de temps"
+#: field:hr.timesheet.sheet.change.period.wizard,display_name:0
+msgid "Display Name"
+msgstr ""
 
 #. module: hr_timesheet_sheet_change_period
 #: field:hr.timesheet.sheet.change.period.wizard,id:0
 msgid "ID"
 msgstr ""
+
+#. module: hr_timesheet_sheet_change_period
+#: field:hr.timesheet.sheet.change.period.wizard,__last_update:0
+#, fuzzy
+msgid "Last Modified on"
+msgstr "Dernière mise à jour le"
 
 #. module: hr_timesheet_sheet_change_period
 #: field:hr.timesheet.sheet.change.period.wizard,write_uid:0
@@ -87,6 +94,11 @@ msgid "Timesheet"
 msgstr "Feuille de temps"
 
 #. module: hr_timesheet_sheet_change_period
+#: model:ir.model,name:hr_timesheet_sheet_change_period.model_hr_timesheet_sheet_change_period_wizard
+msgid "Timesheet Period Change Wizard"
+msgstr "Assistant de changement de période de feuille de temps"
+
+#. module: hr_timesheet_sheet_change_period
 #: view:hr.timesheet.sheet.change.period.wizard:hr_timesheet_sheet_change_period.hr_timesheet_sheet_change_period_form
 msgid "or"
 msgstr "ou"
@@ -95,4 +107,3 @@ msgstr "ou"
 #: view:hr.timesheet.sheet.change.period.wizard:hr_timesheet_sheet_change_period.hr_timesheet_sheet_change_period_form
 msgid "to"
 msgstr "à"
-
